@@ -1,0 +1,24 @@
+{
+  "markdown": {
+    "content": "【测试】这次的值日生是：{name}, 他的帐号是：{code}。轮值名单为：{member}"
+  },
+  "member": [
+    {
+      "name": "【麦饼1】",
+      "code": "maibh01"
+    },
+    {
+      "name": "麦饼2",
+      "code": "maibh01"
+    }
+  ],
+  "msgtype": "text",
+  "text": {
+    "content": "【测试】这次的值日生是：{name}, 他的帐号是：{code}。轮值名单为：{member}",
+    "mentioned_list": [
+      "{code}",
+      "@all"
+    ]
+  },
+  "webhook": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx"
+}
