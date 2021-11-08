@@ -16,7 +16,6 @@ limitations under the License.
 package cmd
 
 import (
-	"fmt"
 	"log"
 	"strings"
 
@@ -119,8 +118,6 @@ to quickly create a Cobra application.`,
 		default:
 			return
 		}
-
-		fmt.Println(sendMsg)
 
 		err = pkg.PostJson(robotConf.Webhook, sendMsg, nil)
 		if err != nil {
